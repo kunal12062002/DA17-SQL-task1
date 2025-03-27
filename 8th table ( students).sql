@@ -1,0 +1,53 @@
+CREATE TABLE students (
+    student_id SERIAL PRIMARY KEY,
+    first_name VARCHAR,
+    last_name VARCHAR,
+    date_of_birth bigint,
+    gpa bigint
+)
+
+
+INSERT INTO students (first_name, last_name, date_of_birth, gpa) VALUES
+('Rahul', 'Sharma', 20000115, 3),
+('Priya', 'Patel', 20010522, 4),
+('Aarav', 'Singh', 20020310, NULL),
+('Ananya', 'Gupta', 20001105, 3),
+('Vihaan', 'Verma', 20020228, 2),
+('Aditi', 'Joshi', 20010715, 3),
+('Kabir', 'Malhotra', 20020901, 4),
+('Diya', 'Reddy', 20011210, 3),
+('Arjun', 'Nair', 20030105, 2),
+('Myra', 'Iyer', 20000820, 4),
+('Reyansh', 'Choudhary', 20011115, 3),
+('Saanvi', 'Mehta', 20020630, 4),
+('Ayaan', 'Saxena', 20020325, 3),
+('Anika', 'Desai', 20010412, 2),
+('Atharv', 'Rao', 20020708, 3),
+('Pari', 'Menon', 20010915, 4),
+('Krish', 'Bose', 20021205, 3),
+('Avni', 'Banerjee', 20000428, NULL),
+('Dhruv', 'Chakraborty', 20010218, 3),
+('Ira', 'Ghosh', 20020422, 4),
+('Shaurya', 'Naidu', 20011011, 3),
+('Kiara', 'Pillai', 20020803, 2),
+('Arnav', 'Sinha', 20010914, 3),
+('Anvi', 'Chatterjee', 20020107, 4),
+('Vivaan', 'Mukherjee', 20000519, 3),
+('Amaira', 'Sengupta', 20010722, 2),
+('Rudra', 'Dasgupta', 20020325, 3),
+('Tara', 'Bhattacharya', 20010908, 4),
+('Advait', 'Ganguly', 20020611, 3),
+('Zara', 'Dutta', 20000324, NULL),
+('Aadi', 'Chawla', 20010517, 2),
+('Kyra', 'Khanna', 20020805, 3),
+('Rehan', 'Kapoor', 20010209, 4),
+('Mira', 'Ahuja', 20011212, 3),
+('Virat', 'Chauhan', 20020517, 2),
+('Anaya', 'Agarwal', NULL, 3),
+('Shiv', 'Bajaj', 20010805, 4),
+('Ishani', 'Srivastava', 20020428, 3),
+('Rohan', 'Mehra', 20010115, NULL),
+('Neha', 'Chopra', 20020722, 4),
+('Aryan', 'Seth', 20000310, NULL)
+
+select * from students
